@@ -11,20 +11,34 @@
     justify-content: center;
 }
 
-#caderno {    
+#caderno {
     background-image: url("assets/background.png");
     background-repeat: no-repeat;
     background-position: center;
-    height: 810px;
-    width: 1280px;
-    padding-left: 50px;
     display: flex;
-    align-items: flex-start;
+    height: 396px;
+    width: 662px;
+    box-shadow: -6px 6px 6px 6px black;
 }
 
-#pagina-esquerda {
-    width: 50%;
-    height: 100%;
+
+body {
+    font-family: "Indie Flower";
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: 100%;
+    margin-top: -5px;
+    padding-bottom: 10px;
+}
+
+nav ul li img {
+    height: 40px;
 }
 
 ul {
@@ -37,19 +51,16 @@ ul {
     position: fixed;
 }
 
-nav img {
-    width: 120px;
-}
-
 li:hover {
     margin-bottom: 10px;
 }
 
+
 a {
     text-decoration: none;
     font-weight: bold;
-    line-height: 20px;
-    font-size: 20px;
+    line-height: 10px;
+    font-size: 10px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -57,14 +68,6 @@ a {
     align-items: center;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    height: 80px;
-    width: 100%;
-    align-items: center;
-}
-
-body {
-    font-family: "Indie Flower";
+.home #home, .paisagens #paisagens, .detalhes #detalhes, .retratos #retratos {
+    margin-bottom: 10px;
 }

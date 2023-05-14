@@ -1,0 +1,30 @@
+#caderno {
+    display: flex;
+    flex-direction: column;
+}
+
+#imagens {
+    margin-left: 36px;
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+}
+
+#imagens img {
+    height: 130px;
+    width: 130px;
+}
+
+#imagens img:nth-child(even) {
+    transform: rotate(-6deg);
+}
+
+#imagens img:nth-child(odd) {
+    transform: rotate(4deg);
+}
+
+nav {
+    justify-content: left;
+    padding-left: 19px;
+}

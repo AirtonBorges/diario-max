@@ -5,43 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie Flower">
     <link rel="icon" href="assets/diario.png">
     <title>Diário da Max</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
     <div id="main">
-        <div id="caderno">
-            <div class="pagina-esquerda">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#home">
-                                <img height="100" src="assets/papelrasgado.png"/>
-                                Teste
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#paisagens">
-                                <img height="100" src="assets/papelrasgado.png"/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#detalhes">
-                                <img height="100" src="assets/papelrasgado.png"/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#retratos">
-                                <img height="100" src="assets/papelrasgado.png"/>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>                
+        <div id="caderno" class="home">
+            <div id="pagina-esquerda">
+                <nav></nav>
                 <h2>Diário da Max</h2>
                 <h3>Aqui estão reunidas todas as minhas melhores fotos</h3>
+                <div id="imagens">
+                    <img id="polaroid-sumindo" height="100" src="assets/polaroid-sumindo.png" alt="">
+                    <img id="imagem-principal" height="200" src="assets/max-foto-principal.png" alt="foto-max">
+                </div>
+            </div>
+            <div id="pagina-direita">
+                <div id="borboleta-azul">
+                    <img id="borboleta-azul-img" src="assets/borboleta-azul.gif" alt="borboleta-azul">
+                </div>
+                <div id="texto-introducao">
+                    <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus a facere officiis earum ducimus, nobis adipisci itaque molestiae iste, corporis fugit! Architecto aut amet itaque. Ut, minus possimus. Consequatur, </p>
+
+                    <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus a facere officiis earum ducimus, nobis adipisci itaque molestiae iste, corporis fugit! Architecto aut amet itaque. Ut, minus possimus. Consequatur, </p>
+                    <div bis_skin_checked="1" style="display: flex;">
+                        <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus a facere officiis earum ducimus, nobis adipisci itaque molestiae iste, corporis fugit! Architecto aut amet itaque. Ut, minus possimus. Consequatur, </p>
+                        <img id="imagem-introducao" src="assets/ilustracao-max.png" alt="ilustração">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <script>
+        $(function(){
+        $("nav").load("nav.html");
+        });
+    </script>
 </body>
 </html>

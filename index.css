@@ -1,0 +1,77 @@
+#pagina-esquerda {
+    width: 50%;
+    height: 100%;
+    padding-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pagina-esquerda #imagens {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#polaroid-sumindo {
+    margin-top: 50%;
+    margin-left: 25px;
+    z-index: 1;
+}
+
+#imagem-principal {
+    padding-top: 20px;
+    margin-left: -65px;
+    height: 250px;
+    transform: rotate(-5deg);
+}
+
+#pagina-direita {
+    width: 50%;
+    height: 100%;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+#borboleta-azul {
+    margin-bottom: -50px;
+    padding-left: 60%;
+}
+
+#borboleta-azul-img {
+    width: 100px;
+}
+
+#texto-introducao {
+    padding: 30px;
+}
+
+#imagem-introducao {
+    width: 140px;
+    height: 145px;
+}
+
+p {
+    z-index: 2;
+    font-weight: bold;
+    line-height: 12px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+h2 {
+    line-height: 20px;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+h3 {
+    line-height: 12px;
+    font-size: 12px;
+
+    text-align: center;
+}
