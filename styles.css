@@ -37,8 +37,16 @@ nav {
     padding-bottom: 10px;
 }
 
-nav ul li img {
+nav ul li a {
+    background-image: url("assets/papelrasgado.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 40px;
+    width: 70px;
+}
+
+nav ul li a img {
+    height: 20px;
 }
 
 ul {
@@ -52,9 +60,8 @@ ul {
 }
 
 li:hover {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-
 
 a {
     text-decoration: none;
@@ -69,5 +76,5 @@ a {
 }
 
 .home #home, .paisagens #paisagens, .detalhes #detalhes, .retratos #retratos {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
